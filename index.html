@@ -9,18 +9,59 @@
 <body>
 <div class="container">
  <header>
- <h1>Thorn Brooks' Blog</h1>
-<img src="thorn.jpg" alt="This is me. I am Thorn" class= "circular image">
-
- <p>Talented Web Developer and UI Designer Aiming for Higher Heights!</p>
-
+    <div class="header-content">
+        <img src="thorn.jpg" alt="This is me. I am Thorn" class="profile-pic">
+        <div class="header-text">
+            <h1>Thorn Brooks' Blog</h1>
+            <p>Talented Web Developer and UI Designer Aiming for Higher Heights!</p>
+        </div>
+    </div>
  </header>
+
  <main>
- <article>This will contain your blog posts<article>
+     <article class="blog-post">
+        <h2>What is the Internet?</h2>
+        <p class="post-meta">October 7, 2024 by Thorn Brooks</p>
+        <img src="internet.jpg" alt="Internet image" class="post-image">
+        <p>In this lecture, I gained insights into the basic concepts of the Internet and the World Wide Web (WWW). The Internet is a network of computers communicating through the Internet Protocol (IP), while the WWW is the part of the Internet we access via websites. I also learned about Tim Berners-Lee's role in creating the WWW, along with the growth of major companies like Amazon, Google, and Yahoo during the dot-com era and the subsequent crash.</p>
+        <p>The Internet’s architecture is built on open standards, allowing devices to join and leave networks freely, with minimal central control. The OSI model was explained, showing how data moves through layers, starting from physical hardware to application-level interactions like web browsing and emails.</p>
+     </article>
+
+     <article class="blog-post">
+        <h2>Exploring Web Development</h2>
+        <p class="post-meta">October 1, 2024 by Thorn Brooks</p>
+        <img src="webdev.jpg" alt="Web development" class="post-image">
+        <p>Web development is one of the most exciting fields in technology today. The combination of front-end and back-end technologies creates the dynamic and interactive web pages we use every day. HTML, CSS, and JavaScript form the backbone of front-end development, while server-side technologies like PHP and Node.js manage data on the back-end.</p>
+        <p>In modern web development, frameworks such as React and Angular are widely used to create fast and efficient user interfaces. As developers, we need to keep up with the latest trends to stay competitive in this constantly evolving field.</p>
+     </article>
  </main>
+
  <aside>
- <!-- This will be your sidebar -->
+    <section class="about">
+        <h3>About</h3>
+        <p>I am Thorn Brooks, a Computer Science Student interested in multimedia and web development.</p>
+    </section>
+
+    <section class="social-media">
+        <h3>Social Media</h3>
+        <ul>
+            <li><a href="" target="_blank">Instagram</a></li>
+            <li><a href="" target="_blank">GitHub</a></li>
+            <li><a href="" target="_blank">LinkedIn</a></li>
+        </ul>
+    </section>
+
+    <section class="archives">
+        <h3>Archives</h3>
+        <ul>
+            <li><a href="#">July 2023</a></li>
+            <li><a href="#">November 2020</a></li>
+            <li><a href="#">January 2012</a></li>
+            <li><a href="#">August 2024</a></li>
+        </ul>
+    </section>
  </aside>
+
  <footer>
  <p>Copyright &copy; 2024, Thorn Brooks</p>
  </footer>
